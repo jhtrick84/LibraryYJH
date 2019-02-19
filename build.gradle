@@ -1,0 +1,24 @@
+buildscript {
+    repositories {
+        // Gradle
+        google()
+
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.3.1'
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+
+        // Gson, Retrofit, Glide
+        jcenter()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
