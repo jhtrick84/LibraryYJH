@@ -7,13 +7,6 @@ import com.google.gson.annotations.SerializedName;
  */
 
 public class BasicConnVO {
-//    @SerializedName("basisImageItem.bimg_cate_zone")
-//    String zone_cd;
-//
-//    public BasicConnVO(String zone_cd) {
-//        this.zone_cd = zone_cd;
-//    }
-
     @SerializedName("locationItem.memb_seq")
     String memb_seq;
     @SerializedName("locationItem.thisPage")

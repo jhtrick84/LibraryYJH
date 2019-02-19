@@ -40,7 +40,7 @@ public class ConnYJH extends UrlYJH {
                     .build();
 
             IRetrofit task = retrofit.create(IRetrofit.class);
-            final Call<String> mCall = task.conn(url, GsonYJH.getHashMapFromVO(body));
+            final Call<String> mCall = task.conn(url, GsonYJH.getMap(body));
             Callback<String> mCallback = new Callback<String>() {
                 @Override
                 public void onResponse(Call<String> call, Response<String> response) {

@@ -14,7 +14,7 @@ import com.bumptech.glide.module.AppGlideModule;
 @com.bumptech.glide.annotation.GlideModule
 public class GlideModuleYJH extends AppGlideModule {
 
-    private final int maxMemory = (int) (Runtime.getRuntime().maxMemory() / 1024);
+//    private final int maxMemory = (int) (Runtime.getRuntime().maxMemory() / 1024);
 
     @Override
     public void applyOptions(Context context, GlideBuilder builder) {

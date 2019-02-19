@@ -1,13 +1,14 @@
 package yjhtest.basic.util.view;
 
 import android.content.Context;
+import android.support.v7.widget.AppCompatEditText;
 import android.util.AttributeSet;
-import android.widget.EditText;
 
 /**
+ * Custom EditText
  * @author 윤준혁
  */
-public class EditTextYJH extends EditText {
+public class EditTextYJH extends AppCompatEditText {
     public EditTextYJH(Context context) {
         super(context);
     }

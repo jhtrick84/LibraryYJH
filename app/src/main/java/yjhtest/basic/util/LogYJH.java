@@ -37,9 +37,7 @@ public class LogYJH {
      * @return
      */
     private static boolean isDebuging(){
-        if (!DEBUG && !PLS_SHOW_LOG)
-            return false;
-        return true;
+        return (DEBUG || PLS_SHOW_LOG);
     }
 
     /**

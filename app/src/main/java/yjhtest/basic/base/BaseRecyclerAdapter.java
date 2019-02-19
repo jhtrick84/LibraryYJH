@@ -14,6 +14,7 @@ import java.util.List;
 import yjhtest.basic.util.LogYJH;
 
 /**
+ * RecyclerAdapter를 간편하기 위해 만든 부모 Adapter
  * @author 윤준혁
  * @date 2017-02-01
  */
